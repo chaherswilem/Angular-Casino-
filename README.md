@@ -2,7 +2,7 @@
 
 Casino angular application.  
 
-https://i.ibb.co/X4XswsT/M-dia1-Trim.gif
+<img src="https://i.ibb.co/X4XswsT/M-dia1-Trim.gif" width="800" height="400"/>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
 
