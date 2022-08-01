@@ -1,0 +1,8 @@
+<div class="container mt-5 ">
+<div  class="row row-cols-1 row-cols-md-5 gx-2 gy-4">
+  <div *ngFor="let game of allGames;let i=index">
+<app-game [showgame]="game" ></app-game>
+  </div>
+</div>
+
+</div>

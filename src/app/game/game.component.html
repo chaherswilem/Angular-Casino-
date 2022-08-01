@@ -1,0 +1,12 @@
+<div class="col  ">
+  <div class="card containe">
+    <img [src]="showgame.image"  class="card-img-top rounded " alt="...">
+    <div *ngIf="showgame.categories.includes('top')" class="ribbon-wrapper-green "><div class="ribbon-green">TOP</div></div>
+    <div *ngIf="showgame.categories.includes('new')" class="ribbon-wrapper-green"><div class="ribbon-red">NEW</div></div>
+    <div *ngIf="showgame.categories.includes('new') && showgame.categories.includes('top')" class="ribbon-wrapper-green"><div class="ribbon-blue">TOP & NEW</div></div>
+    <button type="showgame" class="btn btn-warning">Play</button>
+    <div>
+      <p  class="pos rounded">{{ amount && '£ '+ amount.toString() }}</p>
+    </div>
+  </div>
+</div>
